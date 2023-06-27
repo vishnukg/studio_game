@@ -4,6 +4,7 @@ require:
   - rubocop-rails
   - rubocop-rspec
 
+
 AllCops:
   DisabledByDefault: false
   NewCops: enable
@@ -13,4 +14,7 @@ AllCops:
     - vendor/**/*
 
 Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
   Enabled: false
