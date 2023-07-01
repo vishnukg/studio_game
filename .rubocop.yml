@@ -1,13 +1,12 @@
 require:
   - rubocop-performance
   - rubocop-rake
-  - rubocop-rails
   - rubocop-rspec
 
 
 AllCops:
   DisabledByDefault: false
-  NewCops: enable
+  NewCops: disable
   Exclude:
     - db/schema.rb
     - node_modules/**/*

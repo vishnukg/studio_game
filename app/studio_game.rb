@@ -9,5 +9,4 @@ puts "Players: \n\tlarry\n\tcurly\n\tmoe"
 puts "Hello, there #{name1}"
 
 halp = MagicBall.new
-
-puts halp.ask('what')
+puts halp.ask('Sot')
