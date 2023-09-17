@@ -1,4 +1,5 @@
 require_relative 'magic_ball'
+
 name1 = 'larry'
 health1 = 60
 
@@ -8,5 +9,7 @@ puts "Players: \n\tlarry\n\tcurly\n\tmoe"
 
 puts "Hello, there #{name1}"
 
-halp = MagicBall.new
-puts halp.ask('Sot')
+help = MagicBall.new
+puts help.ask('Sot')
+
+puts Math.asinh(2)
