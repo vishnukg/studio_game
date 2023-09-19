@@ -6,4 +6,8 @@ class MagicBall
   def ask_again
     'What you doin ?'
   end
+
+  def ask_v2(msg)
+    "Say what ? #{msg}"
+  end
 end

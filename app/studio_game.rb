@@ -12,4 +12,5 @@ puts "Hello, there #{name1}"
 help = MagicBall.new
 puts help.ask('Sot')
 
+puts help.ask_v2('Hello')
 puts Math.asinh(2)
