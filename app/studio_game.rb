@@ -14,3 +14,5 @@ puts help.ask('Sot')
 
 puts help.ask_v2('Hello')
 puts Math.asinh(2)
+
+puts help.ask_v4(4)
