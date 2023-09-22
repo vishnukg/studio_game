@@ -1,10 +1,10 @@
 class MagicBall
   def ask(_question)
-    'Whatever'
+    "Whatever"
   end
 
   def ask_again
-    'What you doin ?'
+    "What you doin ?"
   end
 
   def ask_v2(msg)
