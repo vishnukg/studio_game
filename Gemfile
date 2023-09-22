@@ -3,7 +3,6 @@
 source 'https://rubygems.org'
 
 # gem "rails"
-gem 'activesupport', '>= 7.0.7.1'
 gem 'minitest'
 gem 'minitest-reporters'
 gem 'rubocop', require: false
